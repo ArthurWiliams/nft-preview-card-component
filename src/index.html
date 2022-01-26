@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html
+    lang="en"
+    class="bg-very-dark-blue-900 text-blue text-[18px] selection:bg-cyan selection:text-very-dark-blue-900">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png" />
+
+        <title>NFT preview card component</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+            rel="stylesheet" />
+
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <main class="flex items-center justify-center h-screen p-5">
+            <!-- NFT preview component -->
+            <div
+                class="p-6 pb-[1.6rem] md:pb-8 rounded bg-very-dark-blue-850 max-w-[21rem] animate-fade-in shadow-[0_30px_30px_18px_rgba(0,0,0,0.1)]">
+                <!-- NFT preview -->
+                <header
+                    class="relative rounded-md overflow-hidden group cursor-pointer flex justify-center items-center">
+                    <img src="./images/image-equilibrium.jpg" alt="NFT image" />
+                    <div
+                        class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center">
+                        <span
+                            class="block w-full h-full bg-cyan opacity-0 group-hover:opacity-50 transition-opacity duration-[110ms]"></span>
+                        <img
+                            src="./images/icon-view.svg"
+                            alt=""
+                            class="absolute opacity-0 group-hover:opacity-100 transition-opacity duration-[110ms]" />
+                    </div>
+                </header>
+
+                <!-- NFT details -->
+                <div>
+                    <!-- NFT title -->
+                    <h2
+                        class="text-white text-xl font-semibold mt-5 mb-3 hover:text-cyan focus:text-cyan cursor-pointer transition-colors">
+                        Equilibrium #3429
+                    </h2>
+
+                    <!-- NFT description -->
+                    <p class="font-light mb-[0.85rem] md:mb-6">
+                        Our Equilibrium collection promotes balance and calm.
+                    </p>
+
+                    <!-- NFT availability -->
+                    <div class="flex justify-between mb-4">
+                        <div class="flex items-center">
+                            <img
+                                src="./images/icon-ethereum.svg"
+                                alt=""
+                                class="mr-2" />
+                            <span class="font-semibold text-cyan">
+                                0.041 ETH
+                            </span>
+                        </div>
+                        <div class="flex items-center">
+                            <img
+                                src="./images/icon-clock.svg"
+                                alt=""
+                                class="mr-2" />
+                            <span class="font-normal"> 3 days left </span>
+                        </div>
+                    </div>
+
+                    <hr class="border-very-dark-blue-800" />
+
+                    <!-- NFT creator -->
+                    <footer class="flex items-center mt-4">
+                        <img
+                            src="./images/image-avatar.png"
+                            alt=""
+                            class="ring-white ring-0 ring-offset-[1px] rounded-full w-8" />
+                        <span class="ml-5"
+                            >Creation of
+                            <a
+                                href="#"
+                                class="text-white hover:text-cyan focus:text-cyan transition-colors"
+                                >Jules Wyvern</a
+                            ></span
+                        >
+                    </footer>
+                </div>
+            </div>
+        </main>
+
+        <footer class="sr-only">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by
+            <a href="https://github.com/ArthurWiliams">Arthur Williams</a>.
+        </footer>
+    </body>
+</html>
