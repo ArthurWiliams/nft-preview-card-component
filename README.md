@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: <> -->
+- Solution URL: <https://www.frontendmentor.io/solutions/nft-preview-card-using-tailwind-css-A0pdz0TOf>
 - Live Site URL: <https://peaceful-hamilton-6d6589.netlify.app/>
 
 ## My process
